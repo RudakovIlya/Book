@@ -8,7 +8,7 @@ const root = ReactDOM.createRoot(
     document.getElementById('root') as HTMLElement
 );
 
-const isLoading = false;
+const isLoading = true;
 
 root.render(
     <App isLoading={isLoading}/>
